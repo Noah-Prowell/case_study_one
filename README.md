@@ -43,11 +43,21 @@ Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 data
 
 ## Exploring our data
 
-Exploring our data showed us that there were quite a lot indicators with little or no data. So, we ended up just grabbing columns that had good, worable data:
+Exploring our data showed us that there were quite a lot indicators with little or no data. In order to find ones indicators that had good, workable data, we needed to be able to lookup our indicator codes by name. Here is the function we wrote to do that:
+
+```
+def get_indicator_code(ind_name=''):
+    if len(ind_name) == 0:
+        return set(df_US.loc["Indicator Name"])
+    else:
+        return df_US.columns[(df_US == ind_name).loc['Indicator Name']][0] 
+```
+
+So, after grabbing columns that had data we could work with, we made the following graphs!
 
 **Urban population as a % of population for the UK**
 
-![Image](https://i.imgur.com/xYGvo1o.png)
+![Image](https://i.imgur.com/7ATIEOq.png)
 
 **US v. UK population growth**
 
