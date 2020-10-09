@@ -39,18 +39,18 @@ Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 data
 
 Exploring our data showed us that there were quite a lot indicators with little or no data. So, we ended up just grabbing columns that had good, worable data:
 
-Urban population as a % of population for the UK:
+## Urban population as a % of population for the UK:
 
 ![Image](https://i.imgur.com/xYGvo1o.png)
 
-US v. UK population growth
+## US v. UK population growth
 
 ![Image](https://i.imgur.com/zoAuH7j.png)
 
-US v. UK Death Rate
+## US v. UK Death Rate
 
 ![Image](https://i.imgur.com/M0DnwAH.png)
 
-US v. UK Birth Rate
+## US v. UK Birth Rate
 
 ![Image](https://i.imgur.com/KQ8SqkT.png)
