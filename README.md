@@ -62,11 +62,11 @@ So, after grabbing columns that had data we could work with, we made the followi
 
 **US v. UK population growth**
 
-![Image](https://i.imgur.com/zoAuH7j.png)
+![Image](https://i.imgur.com/k8rTEbW.png)
 
 **US v. UK Death Rate**
 
-![Image](https://i.imgur.com/M0DnwAH.png)
+![Image](https://i.imgur.com/UTs4r1C.png)
 
 **US v. UK Birth Rate**
 
