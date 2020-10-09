@@ -13,12 +13,12 @@ After reading in the raw data from Health Nutrition and Population Statistics, i
 health_df = pd.read_csv('../data/data.csv')
 health_df
 ```
-original_df.png
+![Image](https://imgur.com/JSbVIxv)
 
 ```
 health_df.info()
 ```
-original_df.info.png
+![Image](https://imgur.com/kmSFYlx)
 
 The indicators (things like population size, death rate, etc.) was the data we actually cared about, so we needed to find a way to transform the dataframe to better represent that.
 
@@ -32,7 +32,7 @@ df_US.drop(df_US.index[3], inplace=True) #drop the indicator code row since its 
 ```
 To do this, decided to focus in on the US and UK specifically, allowing us to sqeeze our indicators down to unique values with no duplicates. Then we made the indicators our columns, and ended up with a dataframe that makes much more sense. 
 
-transformed_US.png
+![Image](https://imgur.com/HWzINGo)
 
 Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 dataframes. MUCH more manageable.
 
@@ -54,3 +54,4 @@ US v. UK Death Rate
 
 US v. UK Birth Rate
 
+![Image](https://i.imgur.com/KQ8SqkT.png)
