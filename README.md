@@ -22,6 +22,8 @@ The indicators (things like population size, death rate, etc.) was the data we a
 
 --- 
 
+To do this, decided to focus in on the US and UK specifically, allowing us to sqeeze our indicators down to unique values with no duplicates. Then we made the indicators our columns, and ended up with a dataframe that makes much more sense. 
+
 ```
 df = pd.read_csv('../data/data.csv')
 df_US = df[df['Country Name'] == 'United States'] #make US only Dataframe
@@ -31,16 +33,11 @@ df_US.columns = df_US.iloc[3] #make the colums the values for row 4 (indicator c
 df_US.drop(df_US.index[3], inplace=True) #drop the indicator code row since its now the column name
 ```
 
-
-To do this, decided to focus in on the US and UK specifically, allowing us to sqeeze our indicators down to unique values with no duplicates. Then we made the indicators our columns, and ended up with a dataframe that makes much more sense. 
-
- 
  
 ![Image](https://imgur.com/HWzINGo.png)
  
- 
 
-Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 dataframes. MUCH more manageable.
+Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 dataframes; **MUCH** more manageable.
 
 --- 
 
