@@ -2,7 +2,9 @@
 
 ## Goal:
 To explore various changes in US and UK population data over the years 1960-2016.
+
 --- 
+
 ## Our Raw Data
 
 
@@ -39,7 +41,9 @@ To do this, decided to focus in on the US and UK specifically, allowing us to sq
  
 
 Now, we had reduced our dataframe from a 90,000x60 dataframe, to two 345x60 dataframes. MUCH more manageable.
+
 --- 
+
 ## Exploring our data
 
 Exploring our data showed us that there were quite a lot indicators with little or no data. So, we ended up just grabbing columns that had good, worable data:
