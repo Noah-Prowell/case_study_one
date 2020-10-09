@@ -25,12 +25,13 @@ The indicators (things like population size, death rate, etc.) was the data we a
 To do this, decided to focus in on the US and UK specifically, allowing us to sqeeze our indicators down to unique values with no duplicates. Then we made the indicators our columns, and ended up with a dataframe that makes much more sense. 
 
 ```
-df = pd.read_csv('../data/data.csv')
-df_US = df[df['Country Name'] == 'United States'] #make US only Dataframe
-df_US = df_US.transpose()
-
-df_US.columns = df_US.iloc[3] #make the colums the values for row 4 (indicator code) 
-df_US.drop(df_US.index[3], inplace=True) #drop the indicator code row since its now the column name
+#UK dataframe
+df_UK = df[df['Country Name'] == 'United Kingdom']
+columns = df_UK.iloc[:,3]
+df_UK = df_UK[[column for column in df_UK.columns if column not in ['Country Name', 'Country Code','Indicator Name','Indicator Code', 'Unnamed: 60']]].transpose()
+df_UK.index = df_UK.index.astype(int)
+df_UK.columns = columns
+df_UK.index.name = 'Year'
 ```
 
  
