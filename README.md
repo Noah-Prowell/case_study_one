@@ -3,7 +3,6 @@
 ## Goal:
 To explore various changes in US and UK population data over the years 1960-2016.
 
---- 
 
 ## Our Raw Data
 
@@ -21,6 +20,7 @@ After reading in the raw data from Health Nutrition and Population Statistics, i
 
 The indicators (things like population size, death rate, etc.) was the data we actually cared about, so we needed to find a way to transform the dataframe to better represent that.
 
+--- 
 
 ```
 df = pd.read_csv('../data/data.csv')
