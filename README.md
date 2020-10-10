@@ -65,13 +65,13 @@ So, after grabbing columns that had data we could work with, we made the followi
 
 ![Image](https://i.imgur.com/UTs4r1C.png)
 
-**US v. UK population growth**
-
-![Image](https://i.imgur.com/k8rTEbW.png)
-
 **US v. UK Birth Rate**
 
 ![Image](https://i.imgur.com/KQ8SqkT.png)
+
+**US v. UK population growth**
+
+![Image](https://i.imgur.com/k8rTEbW.png)
 
 **Urban population as a % of population for the UK**
 
