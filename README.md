@@ -59,7 +59,7 @@ So, after grabbing columns that had data we could work with, we made the followi
 
 **US v. UK Healthcare Expenditure**
 
-![Image](https://i.imgur.com/XDmLiMD.png)
+![Image](https://imgur.com/d5VAe0r.png)
 
 **US v. UK population growth**
 
