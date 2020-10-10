@@ -71,3 +71,7 @@ So, after grabbing columns that had data we could work with, we made the followi
 **US v. UK Birth Rate**
 
 ![Image](https://i.imgur.com/KQ8SqkT.png)
+
+**US v. UK Healthcare Expenditure*
+
+![Image](https://i.imgur.com/XDmLiMD.png)
