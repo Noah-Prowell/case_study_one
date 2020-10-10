@@ -56,9 +56,10 @@ def get_indicator_code(ind_name=''):
 
 So, after grabbing columns that had data we could work with, we made the following graphs!
 
-**Urban population as a % of population for the UK**
 
-![Image](https://i.imgur.com/7ATIEOq.png)
+**US v. UK Healthcare Expenditure**
+
+![Image](https://i.imgur.com/XDmLiMD.png)
 
 **US v. UK population growth**
 
@@ -72,6 +73,6 @@ So, after grabbing columns that had data we could work with, we made the followi
 
 ![Image](https://i.imgur.com/KQ8SqkT.png)
 
-**US v. UK Healthcare Expenditure*
+**Urban population as a % of population for the UK**
 
-![Image](https://i.imgur.com/XDmLiMD.png)
+![Image](https://i.imgur.com/7ATIEOq.png)
